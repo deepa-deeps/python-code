@@ -1,0 +1,3 @@
+import calendar
+b=calendar.calendar(2005)
+print (b)
