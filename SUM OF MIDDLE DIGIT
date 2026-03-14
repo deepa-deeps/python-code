@@ -1,0 +1,7 @@
+num1 = int(input("Enter first 4-digit number: "))
+num2 = int(input("Enter second 4-digit number: "))
+num3 = int(input("Enter third 4-digit number: "))
+
+# Extract middle two digits
+mid_sum = int(str(num1)[1:3]) + int(str(num2)[1:3]) + int(str(num3)[1:3])
+print("Key from middle digits =", mid_sum)
