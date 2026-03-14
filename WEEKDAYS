@@ -1,0 +1,2 @@
+import calendar
+print(calendar.weekday(2005, 7, 14))
