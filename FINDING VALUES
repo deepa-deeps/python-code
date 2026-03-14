@@ -1,0 +1,10 @@
+num1 = int(input("Enter first 4-digit number: "))
+num2 = int(input("Enter second 4-digit number: "))
+num3 = int(input("Enter third 4-digit number: "))
+a1 = [int(a) for a in str(num1)]
+a2 = [int(a) for a in str(num2)] 
+a3 = [int(a) for a in str(num3)]
+largestsum = max(a1) + max(a2) + max(a3)
+smallestsum = min(a1) + min(a2) + min(a3)
+key = largestsum*smallestsum
+print("Key =",key)
