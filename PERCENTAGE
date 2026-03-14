@@ -1,0 +1,16 @@
+name=['deepa','krishna','suva','vithiya','giri']
+marks=[[70,59,66],[85,99,95],[97,75,85],[92,85,78],[67,47,50]]
+for i in range(len(name)):
+    total = sum(marks[i])
+    percentage = total / len(marks[i])
+
+    if percentage >= 90:
+        grade = "S"
+    elif percentage >= 60:
+        grade = "A"
+    elif percentage >= 41:
+        grade = "B"
+    else:
+        grade = "F"
+
+    print("{} . {} - {} % - Grade {}".format(i+1,name[i],percentage,grade))
